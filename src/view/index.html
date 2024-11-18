@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>local cloud</title>
+</head>
+
+<body>
+  <div class="empty" id="empty">
+    <h1>empty manager</h1>
+    <h3>try to create a new folder or file</h3>
+  </div>
+  <div class="folders" id="uifolders">
+    <h1 id="folderui"></h1>
+    <span id="foldername"></span>
+    <div class="ctn-folder2" id="newFolderClick">
+      <div class="folderdiv">📁</div>
+      <h3 class="foldernameI"><input value="Nueva Carpeta" type="text" id="newFolder"></input></h3>
+    </div>
+  <div class="files" id="uifiles">
+      <h1 id="fileui"></h1>
+      <span id="filename"></span>
+      <div class="ctn-file2" id="newFileClick">
+        <div class="filediv">📄</div>
+        <h3 class="filenameI"><input value="NuevoArchivo.txt" type="text" id="newFile"></input></h3>
+    </div>
+  </div>
+  <div class="menu" id="menu">
+    <div class="hoverBg">
+      <span class="blocksame">ver</span><span class="extends">></span>
+    </div>
+    <div id="refresh" class="hoverBg">
+      <span class="withoutExtends">actualizar</span>
+    </div>
+    <div class="newInMenu" class="hoverBg" id="newExtends">
+      <span class="blocksame">nuevo</span><span class="extends">></span>
+    </div>
+    <div class="hoverBg">
+      <span class="blocksame">Ordenar Por</span><span class="extends">></span>
+    </div>
+  </div>
+  <div class="extendedMenuNew" id="extendedMenuNew">
+    <div>
+      <span id="createFolder">carpeta</span>
+    </div>
+    <div>
+      <span id="createFile">archivo</span>
+    </div>
+    <div>
+      <span id="createDa">acceso directo</span>
+    </div>
+  </div>
+  <script type="text/javascript" src="./js/main.js"></script>
+  <script type="text/javascript" src="./js/manager.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+body {
+  background: #282729;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  max-width: 1380px;
+  padding: 0;
+}
+
+.empty {
+  margin: 30px;
+}
+
+.menu {
+  position: absolute;
+  left: 10px;
+  width: 220px;
+  height: 105px;
+  border-radius: 7px;
+  user-select: none;
+  background: #2c2b2c;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 800;
+}
+
+.menu div:hover {
+  background: #272727;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hoverBg:hover {
+  background: #272727;
+  cursor: pointer;
+}
+
+.hoverBg span:hover {
+  background: #272727;
+  cursor: pointer;
+}
+
+.extends {
+  display: block;
+  float: right;
+  position: relative;
+  margin-right: 13px;
+}
+
+.blocksame {
+  display: inline-block;
+  position: relative;
+  left: 5px;
+}
+
+.withoutExtends {
+  display: inline-block;
+  position: relative;
+  left: 5px;
+}
+
+.extendedMenuNew {
+  width: 200px;
+  background: #2c2b2c;
+  position: absolute;
+}
+
+
+.extendedMenuNew div span {
+  position: relative;
+  left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.extendedMenuNew div {
+  border-radius: 5px;
+}
+
+.extendedMenuNew div:hover {
+  background: #272727;
+  cursor: pointer;
+}
+
+.folderdiv {
+  font-size: 100px;
+  user-select: none;
+}
+
+.foldernameI {
+  font-size: 20px;
+  position: relative;
+  width: 120px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  user-select: none;
+  overflow: hidden;
+}
+
+.ctn-folder {
+  width: 120px;
+  position: relative;
+  left: 100px;
+  display: inline-block;
+  margin-right: 70px;
+}
+
+.ctn-folder:hover {
+  cursor: pointer;
+}
+
+.foldernameI input {
+  width: auto !important;
+  background: transparent;
+  border: transparent;
+  outline: transparent;
+  color: #FFFFFF;
+  font-size: 15px;
+  display: inline;
+  font-weight: 800;
+}
+
+.ctn-folder2 {
+  width: 120px;
+  position: relative;
+  left: 100px;
+  display: inline-block;
+  margin-right: 70px;
+}
+
+.ctn-folder2:hover {
+  cursor: default;
+}
+
+/* files styles section*/
+
+.filediv {
+  font-size: 100px;
+}
+
+.filenameI {
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  user-select: none;
+  overflow: hidden;
+  user-select: none;
+}
+
+.ctn-file {
+  user-select: none;
+  width: 120px;
+  position: relative;
+  left: 100px;
+  display: inline-block;
+  margin-right: 70px;
+}
+
+.ctn-file:hover {
+  cursor: pointer;
+}
+
+.filenameI input {
+  width: auto !important;
+  display: inline;
+  background: transparent;
+  border: transparent;
+  outline: transparent;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.ctn-file2 {
+  width: 120px;
+  position: relative;
+  left: 100px;
+  display: inline-block;
+  margin-right: 70px;
+}
+
+.ctn-file2:hover {
+  cursor: default;
+}
